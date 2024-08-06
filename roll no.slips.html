@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLL NO.SLIPS AT GCU</title>
+    <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/1274766315287429120/aKMVGs7L_400x400.jpg">
+    <link rel="stylesheet" href="roll no.slips.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        background-color: rgb(226, 202, 202);
+    }
+</style>
+
+<body>
+    <!-- nav bar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="p-3 mb-2 bg-danger-subtle text-danger-emphasis">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#roll no.slips.html">Roll no. Slips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="debates.html">debates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="admissions.html">Admissions</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Achievements
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="debates.html">DEBATES</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="sports.html">SPORTS</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">FOREIGN SOCIETIES</a></li>
+                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://gcu.edu.pk/about.php">activities</a>
+                              </li>
+                    </ul>
+                    <span></span>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn btn-danger">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+                <!-- top-image -->
+
+         <p>
+        <div id="container">
+          <img
+            src="https://lh3.googleusercontent.com/proxy/K0uT1TEVKTXQq1SJ3GtHK1_s-iOaQEoge3Z5XkL5vwkG4MfEixI7cA9tPtC2R5US08fr0Ah7x-4KXzjUc3E9Ig"
+            width="1550px" height="600px">
+        </div>
+        </p>
+                <!-- initialtext -->
+    <div id="initialtext">
+    GCU is a prestigious institute for over 175 years.....its students termed as "RAVIANS" are a mystery in themselves....regardless of 
+    the upcoming generations the result and merit of the Government College Lahore has always remained the best and upheld all the times.....
+    the students of gcu will have to collect their roll no. slips from here and print them ...... to which they bring it to their respective centres 
+    and attemot their examinations......in order to check your roll no. slips.....just fill up the given form:
+    </div>
+    <!-- overall box -->
+
+   
+        <!-- form -->
+        <div id="form">
+            <form>
+                <h4 id="degree-level"> Enter Your Degree Level:</h4><br>
+                <div class="dropdown-center" id="center">
+                    <button class="btn btn-secondary dropdown-toggle" id="dropdown" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="true">
+                        Degree Level
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">1st year</a></li>
+                        <li><a class="dropdown-item" href="#">2nd year</a></li>
+                        <li><a class="dropdown-item" href="#">General Aptitude Test</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 id="degree-level"> Enter Your complete name:</h4><br>
+                <input type="text" placeholder="enter name" id="namestudent">
+            </div>
+            <div>
+                <h4 id="degree-level"> Enter Your father name:</h4><br>
+            <input type="text" placeholder="enter father name" id="namefather">
+        </div>
+                <br>
+                <h2 id="degree-level">Enter Your Roll Number:</h2>
+                <input class="form-control form-control-lg" type="number" placeholder="enter your roll no. here" id="namerollno"
+                    aria-label=".form-control-lg example">
+            </form>
+            <br>
+            <button type="button" class="btn btn-danger" id="namesubmit">submit</button>
+        </div>
+        <p id="recheck"></p>
+
+    </div>
+
+</body>
+
+</html>

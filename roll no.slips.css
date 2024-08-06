@@ -1,0 +1,137 @@
+.p-3{
+    position:relative;
+    width: 100%;
+}
+.nav-link{
+    margin-left: 120px;
+   width: 90px;
+}
+.navbar-brand{
+    position: absolute;
+}
+
+#container{ 
+     animation-name:GCU;
+     animation-duration:2s;
+     animation-timing-function: ease-in;
+     animation-delay: 0.5s;
+     animation-iteration-count:1;
+     align-items: center;
+    align-self: center;
+}
+@keyframes GCU{
+    from{margin-left:100%;}
+    to{margin-left: 0%;}
+
+}
+#overallbox{
+    height: 850px;
+    width: 600px;
+    border-radius: 25px;
+    border-color: rgb(165, 7, 7);
+    border-style: solid;
+    margin-top: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 60px;
+    align-items: center;
+}
+#top-image{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 40px;
+    border-color: black;
+    border-radius: 5px;
+}
+#form{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 40px;
+    border-color: rgb(105, 0, 0);
+    border-radius: 5px;
+    border: solid rgb(119, 7, 7);
+}
+#center{
+    position: relative;
+    top: -70px;
+    width: 200px;
+}
+.dropdown-center{
+    margin-left: 35%;
+    height: 60px;
+   width: 150px;
+}
+#dropdown{
+    width: 450px;
+    height: 40px;
+    margin-left: -150px;}
+
+
+#submit{
+    height: 120%;
+    width:20%;
+    align-self: center;
+    align-content: center;
+    position:relative;
+}
+
+#initialtext{
+    font-size: 25px;
+    font-family:century-gothic;
+    font-style: oblique;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+   margin-top: 40px;
+   margin-bottom: 40px;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+#degree-level{
+    width:250px ;
+    padding: 10px;
+    font-size: 25px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(114, 12, 12);
+}
+#namestudent{
+    position: relative;
+    top: -80px;
+    left: 350px;
+width: 400px;
+height: 40px;
+}
+#namefather{
+    position: relative;
+    top: -80px;
+    left: 350px;
+width: 400px;
+height: 40px;
+}
+#namerollno{
+    position: relative;
+    top: -80px;
+    left: 350px;
+width: 400px;
+height: 40px;
+}
+#namesubmit{
+    position: relative;
+    top: -80px;
+    left: 350px;
+width: 400px;
+height: 40px;
+}
+
+
+#rollno{
+    width: 30%;
+    color: rgb(114, 12, 12);
+    font-size: 15px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: 300;
+}

@@ -1,0 +1,73 @@
+.p-3{
+    position:relative;
+    width: 100%;
+}
+.nav-link{
+    margin-left: 30px;
+   width: 120px;
+}
+.navbar-brand{
+    position: absolute;
+}
+.form-control{
+    background-color: rgb(173, 156, 156);
+   width: 40;
+}
+#overallbox{
+    height: 975px;
+    width: 900px;
+    border-radius: 25px;
+    border-style: solid;
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-bottom: 60px;
+    align-items: center;
+}
+#degree-level{
+    position: relative;
+    margin-top: 40;
+    font-size: 35px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(114, 12, 12);
+
+}
+.dropdown-center{
+    margin-left: 35%;
+    height: 60px;
+   width: 150px;
+
+}
+#submit{
+    margin-left: 15%;
+    height: 140%;
+    width: 78%;
+    align-self: center;
+    align-content: center;
+    position:relative;
+}
+#top-image{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 40px;
+    border-color: black;
+    border-radius: 5px;
+}
+.d-block{
+    width: 1550;
+    height: 600px;
+}
+#admission form{
+    height: 800;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#dropdown{
+    width: 450%;
+    height: 40px;
+    margin-left: -180px;}
